@@ -12,4 +12,4 @@ console.log(shoppingList);
 
 console.log(shoppingList.indexOf("Bread"));//Узнать индекс элемента в массиве
 
-console.log(shoppingList.join(" "));//Превращаем массив в строку (разделитель)
+console.log(shoppingList.join(" "));//Превращаем массив в строку (разделитель
