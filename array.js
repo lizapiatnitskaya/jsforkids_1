@@ -1,5 +1,5 @@
 var shoppingProduct=[];
-shoppingProduct.push("Carrot","Bread","Milk","Cream","Bananas");
+shoppingProduct.push("Carrot","Bread","Milk","Cream","Bananas","Spicess");
 
 var lastProduct=shoppingProduct.pop();
 shoppingProduct.shift();
