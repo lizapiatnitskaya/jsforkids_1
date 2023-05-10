@@ -1,10 +1,6 @@
 function sumArray(array) {
   
-    if (!Array.isArray(array)) {
-        console.log("hello");
-        return 0;
-      }
-    else {
+    if (array.length>1){
     
    let sum=0;
    for (i=0;i<array.length;i++){
@@ -12,5 +8,7 @@ function sumArray(array) {
    }
    return sum - Math.max.apply(null, array) - Math.min.apply(null, array);
 }
+   else {return 0;}
+
+ }
 console.log(sumArray(null));
-}
