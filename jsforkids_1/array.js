@@ -13,3 +13,7 @@ console.log(shoppingList);
 console.log(shoppingList.indexOf("Bread"));//Узнать индекс элемента в массиве
 
 console.log(shoppingList.join(" "));//Превращаем массив в строку (разделитель)
+
+let string="Robin Singh";
+let arr=string.split(" ");//разбивает строку на слова
+console.log(arr);
